@@ -1,0 +1,252 @@
+/* External Style Sheet */
+
+/* this part is for the navbar */
+.tnavbar {
+  margin: 0;
+  align-items:center;
+  background-image: linear-gradient(navy, #66CCFF);
+  overflow: hidden;
+}
+
+.tnavbar a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tnavbar a:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.tnavbar a.active {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+/* navbar pictures */
+.left_neko{
+  float: left;
+  height: 45px;
+  width: 50px;
+}
+
+.left_neko2{
+  float: left;
+  transform: scaleX(-1);
+  height: 45px;
+  width: 75px;
+}
+
+.right_neko{
+  height: 45px;
+  width: 75px;
+}
+
+.right_neko2{
+  transform: scaleX(-1);
+  height: 45px;
+  width: 50px;
+}
+
+/* additional pictures located in the home page/index */
+.base{
+  position: absolute;
+  margin-top: 50px;
+  transform: translateX(1150px);
+  height: 420px;
+  width: auto;
+}
+
+.fish{
+  position: absolute;
+  margin-top: 270px;
+  transform: translateX(800px) scaleX(-1);
+  height: 200px;
+  width: auto;
+}
+
+/* the title */
+.title{
+  position: absolute;
+  float: left;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(20px);
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  text-align: left;
+  background-color:transparent;
+  overflow: hidden;
+}
+
+/* this part is for the body, which is essentially all of the written parts */
+body{
+position: fixed;
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:white;
+font-size: 20px;
+}
+
+/* the formatting of the footer for all the pages */
+.foot{
+  position: absolute;
+  transform: translateY(570px) translateX(20px);
+  z-index: 100;
+}
+
+.music{
+  position: absolute;
+  top: 92%;
+  left: 78%;
+}
+
+.bg{
+  margin: 0; 
+  height: 100%; 
+  width: 100%;
+}
+
+/* the formatting of the 1st part of page 2 */
+.page2info1head{
+  position:absolute;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  text-align: justify;
+  background-image: linear-gradient(navy, #66CCFF);
+  border: 5px solid black;
+  color: white;
+  font-weight: bold;
+  transform: translateX(20px) translateY(20px);
+  z-index: 100;
+}
+
+.page2info1{
+  position: absolute;
+  padding: 2px;
+  width: 900px;
+  height: 185px;
+  text-align: justify;
+  background-color: #f8f8ff;
+  border: 5px solid black;
+  color: black;
+  transform: translateX(20px) translateY(65px);
+}
+
+/* the picture for the 1st bit of information */
+.PONOS{
+  position: absolute;
+  height: 185px;
+  width: auto;
+  float: right;
+  border: 5px solid black;
+  transform: translateX(1090px) translateY(65px);
+}
+
+/* the formatting of the 2nd part of page 2 */
+.page2info2head{
+  position:absolute;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  text-align: justify;
+  background-image: linear-gradient(navy, #66CCFF);
+  border: 5px solid black;
+  color: white;
+  font-weight: bold;
+  transform: translateX(932px) translateY(315px);
+  z-index: 100;
+}
+
+.page2info2{
+  position: absolute;
+  padding: 2px;
+  width: 900px;
+  height: auto;
+  text-align: justify;
+  background-color: #f8f8ff;
+  border: 5px solid black;
+  color: black;
+  transform: translateX(435px) translateY(360px);
+}
+
+/* the picture for the 2nd bit of information */
+.BC{
+  position: absolute;
+  height: 185px;
+  width: auto;
+  float: right;
+  border: 5px solid black;
+  transform: translateX(20px) translateY(360px);
+}
+
+/* the formatting for the images section of the sources */
+.Sources1head{
+  position:absolute;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  font-weight: bold;
+  transform: translateX(20px) translateY(20px);
+  z-index: 100;
+}
+
+.Sources1{
+  position: absolute;
+  padding: 2px;
+  width: 600px;
+  height: auto;
+  text-align: justify;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transform: translateX(20px) translateY(65px);
+  overflow: auto;
+}
+
+/* the formatting for the information section of the sources */
+.Sources2head{
+  position:absolute;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  font-weight: bold;
+  transform: translateX(730px) translateY(20px);
+  z-index: 100;
+}
+
+.Sources2{
+  position: absolute;
+  padding: 2px;
+  width: 600px;
+  height: auto;
+  text-align: justify;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transform: translateX(730px) translateY(65px);
+  overflow: auto;
+}
+
+/* to be continued */
